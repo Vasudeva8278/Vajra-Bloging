@@ -1,0 +1,148 @@
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark-mode .navbar-dark {
+    background-color: #000000 !important;
+}
+
+/* Button styles in dark mode */
+.dark-mode .btn {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode .btn:hover {
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    color: #000000;
+}
+
+/* Exception for specific button variants in dark mode */
+.dark-mode .btn-dark {
+    background-color: #2d2d2d;
+    border-color: #404040;
+    color: #ffffff;
+}
+
+.dark-mode .btn-dark:hover {
+    background-color: #404040;
+    border-color: #505050;
+    color: #ffffff;
+}
+
+.dark-mode .btn-link {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.dark-mode .btn-outline-light {
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.dark-mode .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Card styles */
+.dark-mode .card {
+    background-color: #2d2d2d;
+    border-color: #404040;
+}
+
+.dark-mode .card-body {
+    color: #ffffff;
+}
+
+/* Dropdown styles */
+.dark-mode .dropdown-menu {
+    background-color: #2d2d2d;
+    border-color: #404040;
+}
+
+.dark-mode .dropdown-item {
+    color: #ffffff;
+}
+
+.dark-mode .dropdown-item:hover {
+    background-color: #404040;
+    color: #ffffff;
+}
+
+/* Form control styles */
+.dark-mode .form-control {
+    background-color: #2d2d2d;
+    border-color: #404040;
+    color: #ffffff;
+}
+
+.dark-mode .form-control:focus {
+    background-color: #2d2d2d;
+    border-color: #505050;
+    color: #ffffff;
+}
+
+/* Text and background utilities */
+.dark-mode .text-dark {
+    color: #ffffff !important;
+}
+
+.dark-mode .bg-light {
+    background-color: #2d2d2d !important;
+}
+
+.dark-mode .border {
+    border-color: #404040 !important;
+}
+
+/* Table styles */
+.dark-mode .table {
+    color: #ffffff;
+}
+
+/* Modal styles */
+.dark-mode .modal-content {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.dark-mode .close {
+    color: #ffffff;
+}
+
+/* Light mode button styles (default state) */
+.btn {
+    transition: all 0.3s ease;
+}
+
+/* Success button override for both modes */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #ffffff;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    color: #ffffff;
+}
+
+/* Danger button override for both modes */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: #ffffff;
+} 
